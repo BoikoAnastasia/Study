@@ -1,19 +1,36 @@
-﻿ul {
+﻿
+ul {
     list-style-type: none;
-    display: block;
+    text-align: center;
 }
-li {
-    background-color:black;
-    color:white;
+
+.listMenu li {
+    display: inline; 
+    background-color: black;
+    color: white;
     padding: 10px 30px 10px;
-    font-family: "Book Antiqua";   
-
+    font-family: "Book Antiqua";
+   
 }
+
 a {
-    text-decoration:none;
-    color:white;
+    text-decoration: none;
+    color: white;
 }
-    li:hover {
-    background-color:#e86a00;
-    }
 
+li:hover {
+    background-color: #e86a00;
+}
+
+
+.listMenu2 li {
+    background-color: #3d16c6;
+    padding: 10px 30px 10px;
+    font-family: "Book Antiqua";
+    border: 2px solid #0a004a;
+
+}
+
+.listMenu2 li:hover {
+    background-color:aqua;
+}
