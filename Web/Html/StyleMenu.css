@@ -1,0 +1,19 @@
+﻿ul {
+    list-style-type: none;
+    display: block;
+}
+li {
+    background-color:black;
+    color:white;
+    padding: 10px 30px 10px;
+    font-family: "Book Antiqua";   
+
+}
+a {
+    text-decoration:none;
+    color:white;
+}
+    li:hover {
+    background-color:#e86a00;
+    }
+

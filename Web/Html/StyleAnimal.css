@@ -1,0 +1,54 @@
+﻿h1 {
+color: cornflowerblue;
+}
+img[alt]
+{
+    border-bottom: 10px solid green;
+    width: 200px;
+    height: 150px;
+}
+#Moscow {
+    border: 5px solid pink;
+}
+
+.red::selection {
+color:aqua;
+background-color:orange;
+}
+
+a::selection {
+    color:red;
+}
+
+.red::first-letter {
+    color: red;
+ 
+}
+
+.shadow {
+    text-shadow: 3px 3px 1px red;
+    color: orange;
+}
+
+.multishadow {
+    text-shadow: -2px 4px 1px #f2e938, 1px 6px 3px #14ff27;
+
+}
+.table {
+    background-color:#f2e938;
+    list-style-position:inside;
+}
+li {
+    border: 1px solid orange;
+}
+
+
+input:focus {
+    color: aqua;
+    background-color: burlywood;
+}
+
+a:hover {
+color:red;
+}
+

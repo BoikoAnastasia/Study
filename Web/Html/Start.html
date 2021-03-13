@@ -8,26 +8,30 @@
 <body>
    <form>
        <fieldset>
-           <legend>Оформление заказа</legend>
-           <p><b>Введите контактные данные и адрес доставки:</b></p>
-           Контактное лицо: <input type="text" placeholder ="Введите имя и фамилию"> Ваш адрес: <input type="text" placeholder ="Введите ваш адрес">
+           <legend>Размещение вакансии</legend>
+           <p><b>Тип вакансии:</b></p>
+           <input type="radio" name="t1"> Открытая
+           <input type="radio" name="t1"> Закрытая
+           <p><b>Название вакансии:</b></p> <input type="text" placeholder="Введите название вакансии">
            <p></p>
-           Телефон: <input type="tel" placeholder ="Введите ваш телефон"> Ваш адрес: <input type="email" placeholder ="Ваш е-mail">
+           <b>Профессиональная область:</b>
+           <select>
+               <option value="IT">IT</option>
+               <option value="Buh">Бухгалетрия</option>
+               <option value="Sec">Защита информации</option>
+           </select>
            <p></p>
-           <p><b>Выберите дату и время доставки:</b></p>
-           Дата доставки: <input type="date"> Время доставки: <input type="time">
+           <b>Предполагаемый уровень дохода:</b><input type="text" placeholder="Уровень дохода">
+           <select>
+               <option value="R">RUB</option>
+               <option value="D">DOL</option>
+           </select>
            <p></p>
-           <p><b>Оплата:</b></p>
-           <input type="radio" name="r"> Наличными <input type="radio" name="r"> По карте
+           <b>О вакансии:</b>
            <p></p>
-           <p><b>Прочие параметры:</b></p>
-           <input type="checkbox" name="t1"> Домофон
-           <input type="checkbox" name="t2"> Неисправен звонок
-           <input type="checkbox" name="t3"> Собака во дворе
-           <input type="checkbox" name="t4"> Вход с заднего фасада
-           <input type="checkbox" name="t5"> Вход с торцаздания
+           <textarea placeholder = "Введите информацию о вакансии"></textarea>
            <p></p>
-           <input type="button" value="Подтвердить">
+           <input type="submit" value="Разместить">
        </fieldset>
    </form>
 </body>

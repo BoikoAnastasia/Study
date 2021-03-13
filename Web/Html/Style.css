@@ -1,0 +1,20 @@
+﻿h2 {
+    text-align:left;
+    color: brown; 
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+
+nav {
+    border: 2px solid green;
+    font-size: 18px;
+}
+
+span {
+    color:black;
+   font-weight:700;
+}
