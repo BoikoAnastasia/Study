@@ -1,0 +1,99 @@
+﻿:root {
+    background-image: url(elaydzha_bup_komp.png);
+}
+
+h1 {
+    color: #09065b;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+article {
+    margin: 10px;
+    padding: 0;
+    height: auto;
+    width: 200px;
+    float: right;
+}
+
+table {
+    border: 2px dashed #09065b;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px dashed #09065b;
+}
+
+
+tr, h2 {
+    background-color: #00c0db;
+    text-align: center;
+    color: #09065b;
+    margin: auto;
+    padding: 10px;
+    border: 2px dashed #09065b;
+}
+
+footer {
+    background-color: #808080;
+    height: 30px;
+    width: 0 auto;
+}
+
+nav {
+    height: 100%;
+    width: 150px;
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+}
+
+    nav li {
+        list-style-type: none;
+        display: block;
+        padding: 20px;
+        margin: 4px;
+        text-align: center;
+        border: 3px solid #09065b;
+    }
+
+    nav ul {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+a {
+    text-decoration: none;
+    color: #0048f5;
+}
+
+    a:hover {
+        color: #b20cff;
+    }
+
+nav li:hover {
+background-color:#0546ae;
+}
+
+footer {
+position:absolute;
+bottom:0;
+width: 99%;
+overflow: hidden;
+background-color:white;
+border: 1px solid #09065b;
+}
+
+#TextOlega {
+text-align:center;
+color:white;
+}
+
+footer:hover {
+background-color:#00c0db;
+}
+
