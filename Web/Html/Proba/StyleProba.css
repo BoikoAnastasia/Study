@@ -20,7 +20,7 @@ article {
 
 table {
     border: 2px dashed #09065b;
-    border-collapse: collapse;
+    border-collapse:collapse;
 }
 
 td {
