@@ -1,22 +1,48 @@
 ﻿div {
-    height: 40px;
-    width: 100px;
-    background-color: pink; /* устанавливаем цвет заднего фона */
-    transition-duration: 5s;
-    color: white;
-    line-height: 200px;
-    font-size: 2em;
-    text-align: center;
-    font-weight: bold;
-    border: 3px solid #ffffff;
-    transition-property: width, height;
-    transition-duration: 500ms, 800ms;
-    transition-delay: 500ms, 800ms;
+    display:block;
+    height:100px;
+    width:100px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.myElement:hover {
-    width: 50%;
-    height: 50%;
+.Orange {
+    background-color: orange;
+    transition-property: background-color, border-radius;
+    transition-duration: 1s, 1s;
+}
+
+.Yellow {
+    background-color: yellow;
+    transition-property: width, box-shadow;
+    transition-duration: 1s, 1s;
 }
 
 
+.Green {
+    background-color: green;
+    border: 3px solid transparent;
+    transition-duration: 250ms;
+    transition-property: border-top-color, border-right-color, border-bottom-color, border-left-color, background-color;
+    transition-delay: 250ms, 0.5s, 750ms, 1s, 1.25s, 1.5s;
+}
+
+
+.Orange:hover {
+    background-color: red;
+    border-radius: 70%;
+}
+
+.Yellow:hover {
+    width: 200px;
+    box-shadow: 2px 6px 2px rgba(0, 0, 0, .3);
+}
+
+.Green:hover {
+    border-top-color: red;
+        border-right-color: blue;
+        border-bottom-color: yellow;
+        border-left-color: black;
+        background-color: white;
+}
