@@ -1,0 +1,29 @@
+﻿div {
+    display: inline-block;
+    overflow: hidden;
+    margin: 30px;
+}
+
+
+div img {
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+    border: 2px solid black;
+}
+
+.Tom2 img {
+    transform: scale(1.5);
+}
+
+
+.Tom1 img:hover {
+    transform: scale(1.5);
+    border: 2px solid black;
+}
+
+.Tom2 img:hover {
+    transition: 1s;
+    border: 2px solid black;
+    transform: scale(1);
+}

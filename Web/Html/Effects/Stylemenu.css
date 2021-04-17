@@ -1,0 +1,30 @@
+﻿nav {
+    background: black;
+    color: antiquewhite;
+    width: 650px;
+    margin: 0 auto 30px;
+    text-align: center;
+
+   
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.mein-menu li {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+
+.sub-menu {
+
+}
